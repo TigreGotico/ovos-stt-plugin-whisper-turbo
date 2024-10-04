@@ -8,7 +8,7 @@ class WhisperTurboSTT(STT):
 
     def __init__(self, config=None):
         super().__init__(config)
-        model_id = "deepdml/whisper-large-v3-turbo"
+        model_id = "openai/whisper-large-v3-turbo"
         self.config["model"] = model_id
         self.config["ignore_warnings"] = True
         valid_model = model_id in self.MODELS
