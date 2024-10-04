@@ -4,7 +4,7 @@ from ovos_utils.log import LOG
 
 
 class WhisperTurboSTT(STT):
-    MODELS = ["deepdml/whisper-large-v3-turbo"]
+    MODELS = ["openai/whisper-large-v3-turbo"]
 
     def __init__(self, config=None):
         super().__init__(config)
