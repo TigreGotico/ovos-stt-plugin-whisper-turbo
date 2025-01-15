@@ -52,7 +52,7 @@ PLUGIN_ENTRY_POINT = 'ovos-stt-plugin-whisper-turbo = ovos_stt_plugin_whisper_tu
 
 
 setup(
-    name='ovos-stt-plugin-ovos-whisper-turbo',
+    name='ovos-stt-plugin-whisper-turbo',
     version=get_version(),
     description='A whisper stt plugin for OVOS',
     url='https://github.com/TigreGotico/ovos-stt-plugin-ovos-whisper-turbo',
